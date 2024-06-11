@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#progress-bar-audio {
+  width: 0px;
+  transition: all 200ms linear;
+}
+
+.voulume:hover #progress-bar-audio {
+  width: 80px;
+}
